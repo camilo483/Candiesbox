@@ -1,0 +1,56 @@
+/* ----- Body ----- */
+body {
+	background-color: $yellow-cb;
+	font-family: $font-cb;
+}
+/* ----- Espacios ----- */
+.espacioSecciones {
+	margin-bottom: ($nBase*2) !important;
+}
+.espacioSeccionesMax {
+	margin-bottom: 38px !important;
+}
+.espacioAdicional {
+	padding-top: ($nBase+($nBase/2));
+}
+/* ----- Secciones ----- */
+/* ----- Segunda Seccion ----- */
+#seccionSegunda {
+	margin: 0px;
+}
+.tituloPrincipal {
+	color: $brown-cb;
+	margin: 0px;
+	font-weight: bold;
+	font-size: 44px;
+}
+.sloganPrincipal {
+	color: $red-cb;
+	margin-bottom: 0px;
+	font-weight: bold;
+	font-size: 36px;
+}
+.parrafoIntroductorio {
+    color: $trans-cb;
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+
+
+@media only screen and (max-width: 575px){ /* --------------------------------------RESPONSIVE-------------------------------------- */
+	/* ----- Segunda Seccion / Carrusel ----- */
+	.cajaCentradaVerticalmente {
+		padding: 25px 0px;
+	}
+	.tituloPrincipal {
+		font-size: 32px;
+	}
+	.sloganPrincipal {
+		font-size: 26px;
+	}
+	.parrafoIntroductorio {
+		font-size: 18px;
+	}
+}
+
+

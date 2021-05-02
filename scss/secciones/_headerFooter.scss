@@ -1,0 +1,190 @@
+/* ------ Variables para los estilos / Todas las hojas ------ */
+/* ------ Colores / Candiesbox ------ */
+$yellow-cb: rgb(253, 228, 60);
+$brown-cb: rgb(89, 36, 9);
+$white-cb: rgb(255, 247, 248);
+$red-cb: rgb(255, 54, 59);
+$trans-cb: rgb(122, 73, 0);
+/* ------ Fuente / Candiesbox ------ */
+$font-cb: 'Lobster', cursive;
+/* ------ Operaciones / Candiesbox ------ */
+$nBase: 10px;
+/* ------ Condicionales / Candiesbox ------ */
+$type: chocolatina;
+
+/* ------ Primera Sección / Menu de todas las paginas y logo / Candiesbox ------ */
+#seccionPrimera {
+	z-index: 100;
+}
+#barraNavegacion {
+    @if $type == chocolatina {
+	background-color: $brown-cb;
+	margin: 0px;
+    } @else if $type == bombom {
+        background-color: $trans-cb;
+        margin: 10px;
+    }
+}
+.logo {
+	padding: $nBase;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+    .logo__imagen {
+        padding-left: $nBase;
+        height: 56px;
+    }
+    .logo__texto {
+        padding-left: $nBase*2;
+        font-size: $nBase*3;
+        color: $white-cb;
+        margin-bottom: 0px;
+    }
+}
+#contenedorMenu {
+	padding-right: $nBase*2;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+.menu {
+	margin-bottom: 0px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+    .menu__listado {
+        list-style: none;
+        padding-left: $nBase;
+        padding-right: $nBase;
+        .menu__listado--letra {
+            text-decoration: none;
+            font-size: $nBase*2;
+            color: $white-cb;
+        }
+		
+    }
+	.menu__listado--animacion:hover {
+		background-color: $trans-cb;
+	}
+}
+
+/* ------ Cuarta Seccion / Pie de pagina y redes sociales / Candiesbox ------ */
+#seccionCuarta {
+	margin: 0px;
+}
+.derechos {
+	background-image: linear-gradient(to right, $brown-cb, $red-cb);
+	padding-top: $nBase;
+	padding-bottom: $nBase;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+    .derechos__titulo {
+        color: $white-cb;
+        font-size: $nBase*2;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+}
+#cajaRedesSociales {
+	background-image: linear-gradient(to left, $brown-cb, $red-cb);
+	padding-top: $nBase;
+	padding-bottom: $nBase;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+}
+.redes {
+    .redes__titulo {
+        color: $white-cb;
+        font-size: $nBase*2;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+    .redes__logo {
+        margin-top: $nBase/2;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        .redes__logo--altura {
+            height: ($nBase*2)+($nBase/2);
+            width: auto;
+        }
+    }
+}
+
+/* --------------------------------------------------------- Responsive / menor tamaño --------------------------------------------- */
+@media only screen and (max-width: 767px){ /* --------------------------------------RESPONSIVE-------------------------------------- */
+	/* ----- Primera Sección - Menu ----- */
+	.logo {
+		padding: 5px 10px;
+		justify-content: space-between;
+        .logo__texto {
+            padding-right: $nBase;
+        }
+	}
+	#contenedorMenu {
+		padding-right: 0px;
+		margin-bottom: ($nBase/2);
+	}
+	.menu {
+		justify-content: center;
+	}
+	/* ----- Cuarta Sección - Menu ----- */
+	#seccionCuarta {
+		margin: 0px;
+	}
+	.derechos {
+		background-image: none;
+		background-color: rgb(89, 36, 9);
+		padding-top: ($nBase/2);
+		padding-bottom: ($nBase/2);
+		text-align: center;
+	}
+	#cajaRedesSociales {
+		background-image: none;
+		background-color: rgb(89, 36, 9);
+		padding-top: ($nBase/2);
+		padding-bottom: ($nBase/2);
+		justify-content: center;
+	}
+}
+
+@media only screen and (max-width: 593px){ /* --------------------------------------RESPONSIVE-------------------------------------- */
+	/* ----- Primera Sección - Menu ----- */
+	.contenedorMenu {
+		padding-left: 0px;
+	}
+	/* ----- Cuarta Seccion - Pie de pagina ----- */
+	.redes {
+		margin: 0px;
+		padding: 0px;
+	}
+}
+
+@media only screen and (max-width: 575px){ /* --------------------------------------RESPONSIVE-------------------------------------- */
+	/* ----- Primera Sección - Menu ----- */
+	.logo {
+        .logo__imagen {
+            height: 46px;
+        }
+        .logo__texto {
+            font-size: 26px;
+        }
+    }
+    .menu {
+        .menu__listado {
+            padding-left: ($nBase/2);
+            padding-right: ($nBase/2);
+            .menu__listado--letra {
+                font-size: 16px;
+            }
+        }
+    }
+}

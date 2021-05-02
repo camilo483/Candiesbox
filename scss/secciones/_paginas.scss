@@ -1,0 +1,129 @@
+/* ------ Segunda Seccion / Diseños predeterminados / Candiesbox ------ */
+.standProductos {
+	margin: 0px;
+}
+.cajaCentrada {
+	text-align: center;
+	margin-bottom: 10px;
+}
+.producto {
+	text-align: center;
+	margin-bottom: 20px;
+	.producto__titulo {
+		margin-top: 10px;
+		margin-bottom: 0px;
+	}
+	.producto__imagen {
+		margin-top: 10px;
+		margin-bottom: 0px;
+	}
+	.producto__boton {
+		margin-top: 10px;
+		margin-bottom: 0px;
+	}
+}
+/* aside interno */
+.tituloBarraLateral {
+	color: rgb(89, 36, 9);
+	margin-bottom: 0px;
+	font-weight: bold;
+	font-size: 32px;	
+}
+.especialAside {
+	margin-bottom: 0px;
+	display: block
+}
+.labelAside {
+	display: block;
+	margin-bottom: 0px;
+}
+.compra--caja {
+	.compra__titulo {
+		color:rgb(255, 54, 59);
+		font-weight: 600;
+	}
+	.compra__agregar {
+		background-color: rgb(255, 54, 59);
+		padding: 10px;
+		border-radius: 20px;
+	}
+	.compra__limpiar {
+		background-color: rgb(255, 54, 59);
+		padding: 10px;
+		border-radius: 20px;
+	}
+}
+/* ----- Tercera Seccion / videos de las placas / Candiesbox ----- */
+#seccionTercera {
+	margin: 0px;
+}
+.video--instagram {
+	text-align: center;
+	margin-bottom: 20px;
+	.video__titulo {
+		margin-top: 10px;
+		margin-bottom: 0px;
+	}
+	.video__propiedades {
+		height: 400px;
+		margin-top: 10px;
+	}
+}
+
+/* --------------------------------------------------------- Responsive ------------------------------------------------------------- */
+@media only screen and (max-width: 1330px), (orientation: landscape){ /* --------------------------------------RESPONSIVE-------------------------------------- */
+	/* ----- Segunda Sección / Aside ----- */
+	.casilla {
+		.casilla__label {
+			margin-bottom: 0px;
+			display: block
+		}
+		.casilla__select {
+			margin-bottom: 5px;
+		}
+	}
+    /* ----- Tercera Sección - Videos ----- */
+	.video--instagram {
+		.video__propiedades {
+			width: 170px;
+			height: auto;
+			margin-top: 10px;
+		}
+	}
+}
+@media only screen and (max-width: 1200px){ /* --------------------------------------RESPONSIVE-------------------------------------- */
+	/* ----- Segunda Sección / Aside ----- */
+	.casilla {
+		.casilla__select {
+			width: 200px;
+		}
+	}
+}
+@media only screen and (max-width: 992px){ /* --------------------------------------RESPONSIVE-------------------------------------- */
+	/* ----- Tercera Sección - Videos ----- */
+	.video--instagram {
+		.video__propiedades {
+			width: 170px;
+			height: auto;
+			margin-top: 10px;
+		}
+	}
+}
+@media only screen and (max-width: 575px){ /* --------------------------------------RESPONSIVE-------------------------------------- */
+	/* ----- Segunda Seccion - Carrusel ----- */
+	.cajaSinEspacios {
+		margin: 0px;
+		padding: 0px;
+	}
+	.producto {
+		.producto__titulo {
+			font-size: 18px;
+		}
+		.producto__boton {
+			.producto__boton--propiedades {
+				padding: 6px 6px;
+				font-size: 14px;
+			}
+		}
+	}
+}
