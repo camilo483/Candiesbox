@@ -198,6 +198,7 @@ template {
     -webkit-transform: translateX(calc(-250px * 7));
     transform: translateX(calc(-250px * 7)); } }
 
+/* ----- Clases del carrusel infinito de dulces ----- */
 .slider {
   background: #fde43c;
   height: 100px;
