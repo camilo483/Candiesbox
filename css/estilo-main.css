@@ -590,6 +590,9 @@ body {
   font-weight: bold;
   font-size: 36px; }
 
+.correccionCaja {
+  margin: 0px; }
+
 /* --------------------------------------------------------- Responsive / menor tamaño --------------------------------------------- */
 @media only screen and (max-width: 575px) {
   /* --------------------------------------RESPONSIVE-------------------------------------- */
