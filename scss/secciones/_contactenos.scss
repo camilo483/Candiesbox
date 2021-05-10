@@ -1,31 +1,46 @@
 /* ------ Segunda Seccion / Texto de contacto y formulario / Candiesbox ------ */
 .contacto {
   text-align: center;
-  margin: 0px; }
-  .contacto .contacto__titulo {
-    color: #592409;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-weight: bold;
-    font-size: 44px; }
-  .contacto .contacto__informacion {
-    font-size: 18px; }
-  .contacto .contacto__subtitulo {
-    color: #ff363b;
-    margin-bottom: 0px;
-    font-weight: bold;
-    font-size: 36px; }
-.correccionCaja{
   margin: 0px;
 }
+
+.contacto .contacto__titulo {
+  color: #592409;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 44px;
+}
+
+.contacto .contacto__informacion {
+  font-size: 18px;
+}
+
+.contacto .contacto__subtitulo {
+  color: #ff363b;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.correccionCaja {
+  margin: 0px;
+}
+
 /* --------------------------------------------------------- Responsive / menor tamaño --------------------------------------------- */
 @media only screen and (max-width: 575px) {
+
   /* --------------------------------------RESPONSIVE-------------------------------------- */
   /* ----- Segunda Seccion ----- */
   .contacto .contacto__titulo {
-    font-size: 32px; }
+    font-size: 32px;
+  }
+
   .sloganCandiesbox {
-    font-size: 26px; }
+    font-size: 26px;
+  }
+
   .parrafoIntroductorio {
-    font-size: 18px; }
+    font-size: 18px;
+  }
 }

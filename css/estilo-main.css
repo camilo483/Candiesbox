@@ -207,7 +207,8 @@ template {
   position: relative;
   width: 90%; }
 
-.slider::before, .slider::after {
+.slider::before,
+.slider::after {
   background: -webkit-gradient(linear, left top, right top, from(#fde43c), to(rgba(89, 36, 9, 0)));
   background: linear-gradient(to right, #fde43c 0%, rgba(89, 36, 9, 0) 100%);
   content: "";
@@ -258,12 +259,14 @@ template {
 /* --------------------------------------------------------- Responsive ------------------------------------------------------------- */
 @media only screen and (max-width: 767px) {
   /* --------------------------------------RESPONSIVE-------------------------------------- */
-  .slider::before, .slider::after {
+  .slider::before,
+  .slider::after {
     width: 100px; } }
 
 @media only screen and (max-width: 593px) {
   /* --------------------------------------RESPONSIVE-------------------------------------- */
-  .slider::before, .slider::after {
+  .slider::before,
+  .slider::after {
     width: 50px; } }
 
 /*# sourceMappingURL=estilocarruselprueba.css.map */
