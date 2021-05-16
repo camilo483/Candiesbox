@@ -86,24 +86,3 @@
   height: 50px;
   width: auto;
 }
-
-/* --------------------------------------------------------- Responsive ------------------------------------------------------------- */
-@media only screen and (max-width: 767px) {
-
-  /* --------------------------------------RESPONSIVE-------------------------------------- */
-  .slider::before,
-  .slider::after {
-    width: 100px;
-  }
-}
-
-@media only screen and (max-width: 593px) {
-
-  /* --------------------------------------RESPONSIVE-------------------------------------- */
-  .slider::before,
-  .slider::after {
-    width: 50px;
-  }
-}
-
-/*# sourceMappingURL=estilocarruselprueba.css.map */

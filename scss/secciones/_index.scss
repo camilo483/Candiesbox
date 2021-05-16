@@ -1,0 +1,36 @@
+/* ------ Segunda Seccion / Slider de productos e introduccion / Candiesbox ------ */
+.cajaIzquierda {
+	text-align: center;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.imagenCarrusel {
+	height: 400px;
+	width: auto;
+}
+.cajaDerecha {
+	text-align: center;
+	padding: 0 2%;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+/* ------ Tercera Seccion / Carrusel de dulces / Candiesbox ------ */
+#seccionTerceraMain {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+#barraDeDulces {
+	width: 100%;
+	height: 100px;
+	background-color: $yellow-cb;
+}

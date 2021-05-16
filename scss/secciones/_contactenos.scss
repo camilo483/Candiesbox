@@ -26,21 +26,3 @@
 .correccionCaja {
   margin: 0px;
 }
-
-/* --------------------------------------------------------- Responsive / menor tamaño --------------------------------------------- */
-@media only screen and (max-width: 575px) {
-
-  /* --------------------------------------RESPONSIVE-------------------------------------- */
-  /* ----- Segunda Seccion ----- */
-  .contacto .contacto__titulo {
-    font-size: 32px;
-  }
-
-  .sloganCandiesbox {
-    font-size: 26px;
-  }
-
-  .parrafoIntroductorio {
-    font-size: 18px;
-  }
-}

@@ -182,6 +182,175 @@ template {
 [hidden] {
   display: none; }
 
+/* ------ Variables para los estilos / Todas las hojas ------ */
+/* ------ Colores / Candiesbox ------ */
+/* ------ Fuente / Candiesbox ------ */
+/* ------ Operaciones / Candiesbox ------ */
+/* ------ Condicionales / Candiesbox ------ */
+/* ----- Body ----- */
+body {
+  background-color: #fde43c;
+  font-family: "Lobster", cursive; }
+
+/* ----- Espacios ----- */
+.espacioSecciones {
+  margin-bottom: 20px !important; }
+
+.espacioSeccionesMax {
+  margin-bottom: 38px !important; }
+
+.espacioAdicional {
+  padding-top: 15px; }
+
+/* ----- Secciones ----- */
+/* ----- Segunda Seccion ----- */
+#seccionSegunda {
+  margin: 0px; }
+
+.cajaInternaSeccion {
+  margin: 0; }
+
+.tituloPrincipal {
+  color: #592409;
+  margin: 0px;
+  font-weight: bold;
+  font-size: 44px; }
+
+.sloganPrincipal {
+  color: #ff363b;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 36px; }
+
+.parrafoIntroductorio {
+  color: #7a4900;
+  margin-bottom: 0px;
+  font-size: 20px; }
+
+/* ------ Primera Sección / Menu de todas las paginas y logo / Candiesbox ------ */
+#seccionPrimera {
+  z-index: 100; }
+
+#barraNavegacion {
+  background-color: #592409;
+  margin: 0px; }
+
+.logo {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center; }
+  .logo .logo__imagen {
+    padding-left: 10px;
+    height: 56px; }
+  .logo .logo__texto {
+    padding-left: 20px;
+    font-size: 30px;
+    color: #fff7f8;
+    margin-bottom: 0px; }
+
+#contenedorMenu {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center; }
+
+.menu {
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end; }
+  .menu .menu__listado {
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px; }
+    .menu .menu__listado .menu__listado--letra {
+      text-decoration: none;
+      font-size: 20px;
+      color: #fff7f8; }
+  .menu .menu__listado--animacion:hover {
+    background-color: #7a4900; }
+
+/* ------ Cuarta Seccion / Pie de pagina y redes sociales / Candiesbox ------ */
+#seccionCuarta {
+  margin: 0px; }
+
+.derechos {
+  background-image: linear-gradient(to right, #592409, #ff363b);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center; }
+  .derechos .derechos__titulo {
+    color: #fff7f8;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px; }
+
+#cajaRedesSociales {
+  background-image: linear-gradient(to left, #592409, #ff363b);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end; }
+
+.redes .redes__titulo {
+  color: #fff7f8;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0px; }
+
+.redes .redes__logo {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly; }
+  .redes .redes__logo .redes__logo--altura {
+    height: 25px;
+    width: auto; }
+
+/* ------ Segunda Seccion / Slider de productos e introduccion / Candiesbox ------ */
+.cajaIzquierda {
+  text-align: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center; }
+
+.imagenCarrusel {
+  height: 400px;
+  width: auto; }
+
+.cajaDerecha {
+  text-align: center;
+  padding: 0 2%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center; }
+
+/* ------ Tercera Seccion / Carrusel de dulces / Candiesbox ------ */
+#seccionTerceraMain {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; }
+
+#barraDeDulces {
+  width: 100%;
+  height: 100px;
+  background-color: #fde43c; }
+
 @-webkit-keyframes scroll {
   0% {
     -webkit-transform: translateX(0);
@@ -256,217 +425,6 @@ template {
   height: 50px;
   width: auto; }
 
-/* --------------------------------------------------------- Responsive ------------------------------------------------------------- */
-@media only screen and (max-width: 767px) {
-  /* --------------------------------------RESPONSIVE-------------------------------------- */
-  .slider::before,
-  .slider::after {
-    width: 100px; } }
-
-@media only screen and (max-width: 593px) {
-  /* --------------------------------------RESPONSIVE-------------------------------------- */
-  .slider::before,
-  .slider::after {
-    width: 50px; } }
-
-/*# sourceMappingURL=estilocarruselprueba.css.map */
-/* ------ Variables para los estilos / Todas las hojas ------ */
-/* ------ Colores / Candiesbox ------ */
-/* ------ Fuente / Candiesbox ------ */
-/* ------ Operaciones / Candiesbox ------ */
-/* ------ Condicionales / Candiesbox ------ */
-/* ------ Primera Sección / Menu de todas las paginas y logo / Candiesbox ------ */
-#seccionPrimera {
-  z-index: 100; }
-
-#barraNavegacion {
-  background-color: #592409;
-  margin: 0px; }
-
-.logo {
-  padding: 10px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center; }
-  .logo .logo__imagen {
-    padding-left: 10px;
-    height: 56px; }
-  .logo .logo__texto {
-    padding-left: 20px;
-    font-size: 30px;
-    color: #fff7f8;
-    margin-bottom: 0px; }
-
-#contenedorMenu {
-  padding-right: 20px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center; }
-
-.menu {
-  margin-bottom: 0px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-end; }
-  .menu .menu__listado {
-    list-style: none;
-    padding-left: 10px;
-    padding-right: 10px; }
-    .menu .menu__listado .menu__listado--letra {
-      text-decoration: none;
-      font-size: 20px;
-      color: #fff7f8; }
-  .menu .menu__listado--animacion:hover {
-    background-color: #7a4900; }
-
-/* ------ Cuarta Seccion / Pie de pagina y redes sociales / Candiesbox ------ */
-#seccionCuarta {
-  margin: 0px; }
-
-.derechos {
-  background-image: linear-gradient(to right, #592409, #ff363b);
-  padding-top: 10px;
-  padding-bottom: 10px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center; }
-  .derechos .derechos__titulo {
-    color: #fff7f8;
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 0px; }
-
-#cajaRedesSociales {
-  background-image: linear-gradient(to left, #592409, #ff363b);
-  padding-top: 10px;
-  padding-bottom: 10px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-end; }
-
-.redes .redes__titulo {
-  color: #fff7f8;
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 0px; }
-
-.redes .redes__logo {
-  margin-top: 5px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-evenly; }
-  .redes .redes__logo .redes__logo--altura {
-    height: 25px;
-    width: auto; }
-
-/* --------------------------------------------------------- Responsive / menor tamaño --------------------------------------------- */
-@media only screen and (max-width: 767px) {
-  /* --------------------------------------RESPONSIVE-------------------------------------- */
-  /* ----- Primera Sección - Menu ----- */
-  .logo {
-    padding: 5px 10px;
-    justify-content: space-between; }
-    .logo .logo__texto {
-      padding-right: 10px; }
-  #contenedorMenu {
-    padding-right: 0px;
-    margin-bottom: 5px; }
-  .menu {
-    justify-content: center; }
-  /* ----- Cuarta Sección - Menu ----- */
-  #seccionCuarta {
-    margin: 0px; }
-  .derechos {
-    background-image: none;
-    background-color: #592409;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    text-align: center; }
-  #cajaRedesSociales {
-    background-image: none;
-    background-color: #592409;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    justify-content: center; } }
-
-@media only screen and (max-width: 593px) {
-  /* --------------------------------------RESPONSIVE-------------------------------------- */
-  /* ----- Primera Sección - Menu ----- */
-  .contenedorMenu {
-    padding-left: 0px; }
-  /* ----- Cuarta Seccion - Pie de pagina ----- */
-  .redes {
-    margin: 0px;
-    padding: 0px; } }
-
-@media only screen and (max-width: 575px) {
-  /* --------------------------------------RESPONSIVE-------------------------------------- */
-  /* ----- Primera Sección - Menu ----- */
-  .logo .logo__imagen {
-    height: 46px; }
-  .logo .logo__texto {
-    font-size: 26px; }
-  .menu .menu__listado {
-    padding-left: 5px;
-    padding-right: 5px; }
-    .menu .menu__listado .menu__listado--letra {
-      font-size: 16px; } }
-
-/* ----- Body ----- */
-body {
-  background-color: #fde43c;
-  font-family: "Lobster", cursive; }
-
-/* ----- Espacios ----- */
-.espacioSecciones {
-  margin-bottom: 20px !important; }
-
-.espacioSeccionesMax {
-  margin-bottom: 38px !important; }
-
-.espacioAdicional {
-  padding-top: 15px; }
-
-/* ----- Secciones ----- */
-/* ----- Segunda Seccion ----- */
-#seccionSegunda {
-  margin: 0px; }
-
-.tituloPrincipal {
-  color: #592409;
-  margin: 0px;
-  font-weight: bold;
-  font-size: 44px; }
-
-.sloganPrincipal {
-  color: #ff363b;
-  margin-bottom: 0px;
-  font-weight: bold;
-  font-size: 36px; }
-
-.parrafoIntroductorio {
-  color: #7a4900;
-  margin-bottom: 0px;
-  font-size: 20px; }
-
-@media only screen and (max-width: 575px) {
-  /* --------------------------------------RESPONSIVE-------------------------------------- */
-  /* ----- Segunda Seccion / Carrusel ----- */
-  .cajaCentradaVerticalmente {
-    padding: 25px 0px; }
-  .tituloPrincipal {
-    font-size: 32px; }
-  .sloganPrincipal {
-    font-size: 26px; }
-  .parrafoIntroductorio {
-    font-size: 18px; } }
-
 /* ------ Segunda Seccion / Diseños predeterminados / Candiesbox ------ */
 .standProductos {
   margin: 0px; }
@@ -518,77 +476,6 @@ body {
     height: 400px;
     margin-top: 10px; }
 
-/* --------------------------------------------------------- Responsive ------------------------------------------------------------- */
-@media only screen and (max-width: 1330px), (orientation: landscape) {
-  /* --------------------------------------RESPONSIVE-------------------------------------- */
-  /* ----- Segunda Sección / Aside ----- */
-  .casilla .casilla__label {
-    margin-bottom: 0px;
-    display: block; }
-  .casilla .casilla__select {
-    margin-bottom: 5px; }
-  /* ----- Tercera Sección - Videos ----- */
-  .video--instagram .video__propiedades {
-    width: 170px;
-    height: auto;
-    margin-top: 10px; } }
-
-@media only screen and (max-width: 1200px) {
-  /* --------------------------------------RESPONSIVE-------------------------------------- */
-  /* ----- Segunda Sección / Aside ----- */
-  .casilla .casilla__select {
-    width: 200px; } }
-
-@media only screen and (max-width: 992px) {
-  /* --------------------------------------RESPONSIVE-------------------------------------- */
-  /* ----- Tercera Sección - Videos ----- */
-  .video--instagram .video__propiedades {
-    width: 170px;
-    height: auto;
-    margin-top: 10px; } }
-
-@media only screen and (max-width: 575px) {
-  /* --------------------------------------RESPONSIVE-------------------------------------- */
-  /* ----- Segunda Seccion - Carrusel ----- */
-  .cajaSinEspacios {
-    margin: 0px;
-    padding: 0px; } }
-
-/* ------ Segunda Seccion / Texto de contacto y formulario / Candiesbox ------ */
-.contacto {
-  text-align: center;
-  margin: 0px; }
-
-.contacto .contacto__titulo {
-  color: #592409;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-weight: bold;
-  font-size: 44px; }
-
-.contacto .contacto__informacion {
-  font-size: 18px; }
-
-.contacto .contacto__subtitulo {
-  color: #ff363b;
-  margin-bottom: 0px;
-  font-weight: bold;
-  font-size: 36px; }
-
-.correccionCaja {
-  margin: 0px; }
-
-/* --------------------------------------------------------- Responsive / menor tamaño --------------------------------------------- */
-@media only screen and (max-width: 575px) {
-  /* --------------------------------------RESPONSIVE-------------------------------------- */
-  /* ----- Segunda Seccion ----- */
-  .contacto .contacto__titulo {
-    font-size: 32px; }
-  .sloganCandiesbox {
-    font-size: 26px; }
-  .parrafoIntroductorio {
-    font-size: 18px; } }
-
 .standProductos {
   padding: 0; }
 
@@ -637,49 +524,106 @@ body {
     transform: translateY(0px);
     opacity: 1; }
 
-/* --------------------------------------------------------- Responsive ------------------------------------------------------------- */
+/* ------ Segunda Seccion / Texto de contacto y formulario / Candiesbox ------ */
+.contacto {
+  text-align: center;
+  margin: 0px; }
+
+.contacto .contacto__titulo {
+  color: #592409;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 44px; }
+
+.contacto .contacto__informacion {
+  font-size: 18px; }
+
+.contacto .contacto__subtitulo {
+  color: #ff363b;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 36px; }
+
+.correccionCaja {
+  margin: 0px; }
+
+/* --------------------------------------------------------- EN COMUN -------------------------------------------------------------- */
+/* --------------------------------------------------------- Responsive / menor tamaño --------------------------------------------- */
 @media only screen and (max-width: 575px) {
-  .producto__titulo {
-    font-size: 20px; } }
+  .cajaCentradaVerticalmente {
+    padding: 25px 0px; }
+  .tituloPrincipal {
+    font-size: 32px; }
+  .sloganPrincipal {
+    font-size: 26px; }
+  .parrafoIntroductorio {
+    font-size: 18px; } }
 
-/* ------ Segunda Seccion / Slider de productos e introduccion / Candiesbox ------ */
-.cajaIzquierda {
-  text-align: center;
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center; }
+/* --------------------------------------------------------- HEADER AND FOOTER ----------------------------------------------------- */
+/* --------------------------------------------------------- Responsive / menor tamaño --------------------------------------------- */
+@media only screen and (max-width: 767px) {
+  /* ----- Primera Sección - Menu ----- */
+  .logo {
+    padding: 5px 10px;
+    justify-content: space-between; }
+    .logo .logo__texto {
+      padding-right: 10px; }
+  #contenedorMenu {
+    padding: 0;
+    margin-bottom: 5px; }
+  .menu {
+    justify-content: center; }
+  /* ----- Cuarta Sección - Menu ----- */
+  #seccionCuarta {
+    margin: 0px; }
+  .derechos {
+    background-image: none;
+    background-color: #592409;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center; }
+  #cajaRedesSociales {
+    background-image: none;
+    background-color: #592409;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: center; } }
 
-.imagenCarrusel {
-  height: 400px;
-  width: auto; }
+@media only screen and (max-width: 593px) {
+  /* ----- Cuarta Seccion - Pie de pagina ----- */
+  .redes {
+    margin: 0px;
+    padding: 0px; } }
 
-.cajaDerecha {
-  text-align: center;
-  padding: 0 2%;
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center; }
+@media only screen and (max-width: 575px) {
+  /* ----- Primera Sección - Menu ----- */
+  .logo .logo__imagen {
+    height: 46px; }
+  .logo .logo__texto {
+    font-size: 26px; }
+  .menu .menu__listado {
+    padding-left: 5px;
+    padding-right: 5px; }
+    .menu .menu__listado .menu__listado--letra {
+      font-size: 16px; } }
 
-/* ------ Tercera Seccion / Carrusel de dulces / Candiesbox ------ */
-#seccionTerceraMain {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap; }
+/* --------------------------------------------------------- CARRUSEL -------------------------------------------------------------- */
+/* --------------------------------------------------------- Responsive ------------------------------------------------------------ */
+@media only screen and (max-width: 767px) {
+  .slider::before,
+  .slider::after {
+    width: 100px; } }
 
-#barraDeDulces {
-  width: 100%;
-  height: 100px;
-  background-color: #fde43c; }
+@media only screen and (max-width: 593px) {
+  .slider::before,
+  .slider::after {
+    width: 50px; } }
 
+/* --------------------------------------------------------- INDEX ----------------------------------------------------------------- */
 /* --------------------------------------------------------- Responsive / Mayor tamaño---------------------------------------------- */
 @media only screen and (min-width: 1800px), (min-height: 768px) {
-  /* ------------------------RESPONSIVE------------------------------ */
-  /* ------ Segunda Seccion / Carrusel ------ */
+  /* ------ Index / Segunda Seccion / Carrusel ------ */
   .cajaIzquierda {
     height: 750px; }
   .imagenCarrusel {
@@ -695,7 +639,6 @@ body {
 
 /* --------------------------------------------------------- Responsive / menor tamaño --------------------------------------------- */
 @media only screen and (max-width: 593px) {
-  /* --------------------------------------RESPONSIVE-------------------------------------- */
   /* ----- Segunda Seccion / Carrusel ----- */
   .cajaIzquierda {
     height: auto; }
@@ -704,3 +647,54 @@ body {
   .imagenCarrusel {
     height: 280px;
     width: auto; } }
+
+/* --------------------------------------------------------- PAGINAS ---------------------------------------------------------------- */
+/* --------------------------------------------------------- Responsive ------------------------------------------------------------- */
+@media only screen and (max-width: 1330px), (orientation: landscape) {
+  /* ----- Segunda Sección / Aside ----- */
+  .casilla .casilla__label {
+    margin-bottom: 0px;
+    display: block; }
+  .casilla .casilla__select {
+    margin-bottom: 5px; }
+  /* ----- Tercera Sección - Videos ----- */
+  .video--instagram .video__propiedades {
+    width: 170px;
+    height: auto;
+    margin-top: 10px; } }
+
+@media only screen and (max-width: 1200px) {
+  /* ----- Segunda Sección / Aside ----- */
+  .casilla .casilla__select {
+    width: 200px; } }
+
+@media only screen and (max-width: 992px) {
+  /* ----- Tercera Sección - Videos ----- */
+  .video--instagram .video__propiedades {
+    width: 170px;
+    height: auto;
+    margin-top: 10px; } }
+
+@media only screen and (max-width: 575px) {
+  /* ----- Segunda Seccion - Carrusel ----- */
+  .cajaSinEspacios {
+    margin: 0px;
+    padding: 0px; } }
+
+/* --------------------------------------------------------- TARJETAS --------------------------------------------------------------- */
+/* --------------------------------------------------------- Responsive ------------------------------------------------------------- */
+@media only screen and (max-width: 575px) {
+  .producto__titulo {
+    font-size: 20px; } }
+
+/* --------------------------------------------------------- CONTACTENOS --------------------------------------------------------------- */
+/* --------------------------------------------------------- Responsive / menor tamaño --------------------------------------------- */
+@media only screen and (max-width: 575px) {
+  /* --------------------------------------RESPONSIVE-------------------------------------- */
+  /* ----- Segunda Seccion ----- */
+  .contacto .contacto__titulo {
+    font-size: 32px; }
+  .sloganCandiesbox {
+    font-size: 26px; }
+  .parrafoIntroductorio {
+    font-size: 18px; } }

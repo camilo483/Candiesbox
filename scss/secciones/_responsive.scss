@@ -1,0 +1,237 @@
+/* --------------------------------------------------------- EN COMUN -------------------------------------------------------------- */
+/* --------------------------------------------------------- Responsive / menor tamaño --------------------------------------------- */
+@media only screen and (max-width: 575px) {
+	.cajaCentradaVerticalmente {
+		padding: 25px 0px;
+	}
+
+	.tituloPrincipal {
+		font-size: 32px;
+	}
+
+	.sloganPrincipal {
+		font-size: 26px;
+	}
+
+	.parrafoIntroductorio {
+		font-size: 18px;
+	}
+}
+
+
+/* --------------------------------------------------------- HEADER AND FOOTER ----------------------------------------------------- */
+/* --------------------------------------------------------- Responsive / menor tamaño --------------------------------------------- */
+@media only screen and (max-width: 767px) {
+	/* ----- Primera Sección - Menu ----- */
+	.logo {
+		padding: 5px 10px;
+		justify-content: space-between;
+
+		.logo__texto {
+			padding-right: $nBase;
+		}
+	}
+
+	#contenedorMenu {
+        padding: 0;
+		margin-bottom: ($nBase/2);
+	}
+
+	.menu {
+		justify-content: center;
+	}
+	/* ----- Cuarta Sección - Menu ----- */
+	#seccionCuarta {
+		margin: 0px;
+	}
+
+	.derechos {
+		background-image: none;
+		background-color: rgb(89, 36, 9);
+		padding-top: ($nBase/2);
+		padding-bottom: ($nBase/2);
+		text-align: center;
+	}
+
+	#cajaRedesSociales {
+		background-image: none;
+		background-color: rgb(89, 36, 9);
+		padding-top: ($nBase/2);
+		padding-bottom: ($nBase/2);
+		justify-content: center;
+	}
+}
+@media only screen and (max-width: 593px) {
+	/* ----- Cuarta Seccion - Pie de pagina ----- */
+	.redes {
+		margin: 0px;
+		padding: 0px;
+	}
+}
+@media only screen and (max-width: 575px) {
+	/* ----- Primera Sección - Menu ----- */
+	.logo {
+		.logo__imagen {
+			height: 46px;
+		}
+
+		.logo__texto {
+			font-size: 26px;
+		}
+	}
+
+	.menu {
+		.menu__listado {
+			padding-left: ($nBase/2);
+			padding-right: ($nBase/2);
+
+			.menu__listado--letra {
+				font-size: 16px;
+			}
+		}
+	}
+}
+
+
+/* --------------------------------------------------------- CARRUSEL -------------------------------------------------------------- */
+/* --------------------------------------------------------- Responsive ------------------------------------------------------------ */
+@media only screen and (max-width: 767px) {
+    .slider::before,
+    .slider::after {
+      width: 100px;
+    }
+  }
+
+@media only screen and (max-width: 593px) {
+    .slider::before,
+    .slider::after {
+      width: 50px;
+    }
+  }
+ 
+
+/* --------------------------------------------------------- INDEX ----------------------------------------------------------------- */
+/* --------------------------------------------------------- Responsive / Mayor tamaño---------------------------------------------- */
+@media only screen and (min-width: 1800px), (min-height: 768px) {
+	/* ------ Index / Segunda Seccion / Carrusel ------ */
+	.cajaIzquierda {
+		height: 750px;
+	}
+
+	.imagenCarrusel {
+		height: 700px;
+	}
+
+	.cajaDerecha {
+		height: 750px;
+	}
+
+	.tituloPrincipal {
+		font-size: 60px;
+	}
+
+	.sloganPrincipal {
+		font-size: 44px;
+	}
+
+	.parrafoIntroductorio {
+		font-size: 30px;
+	}
+}
+/* --------------------------------------------------------- Responsive / menor tamaño --------------------------------------------- */
+@media only screen and (max-width: 593px) {
+	/* ----- Segunda Seccion / Carrusel ----- */
+	.cajaIzquierda {
+		height: auto;
+	}
+
+	.cajaDerecha {
+		height: auto;
+	}
+
+	.imagenCarrusel {
+		height: 280px;
+		width: auto;
+	}
+}
+
+
+/* --------------------------------------------------------- PAGINAS ---------------------------------------------------------------- */
+/* --------------------------------------------------------- Responsive ------------------------------------------------------------- */
+@media only screen and (max-width: 1330px), (orientation: landscape) {
+	/* ----- Segunda Sección / Aside ----- */
+	.casilla {
+		.casilla__label {
+			margin-bottom: 0px;
+			display: block
+		}
+
+		.casilla__select {
+			margin-bottom: 5px;
+		}
+	}
+
+	/* ----- Tercera Sección - Videos ----- */
+	.video--instagram {
+		.video__propiedades {
+			width: 170px;
+			height: auto;
+			margin-top: 10px;
+		}
+	}
+}
+@media only screen and (max-width: 1200px) {
+	/* ----- Segunda Sección / Aside ----- */
+	.casilla {
+		.casilla__select {
+			width: 200px;
+		}
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	/* ----- Tercera Sección - Videos ----- */
+	.video--instagram {
+		.video__propiedades {
+			width: 170px;
+			height: auto;
+			margin-top: 10px;
+		}
+	}
+}
+@media only screen and (max-width: 575px) {
+	/* ----- Segunda Seccion - Carrusel ----- */
+	.cajaSinEspacios {
+		margin: 0px;
+		padding: 0px;
+	}
+}
+
+
+/* --------------------------------------------------------- TARJETAS --------------------------------------------------------------- */
+/* --------------------------------------------------------- Responsive ------------------------------------------------------------- */
+@media only screen and (max-width: 575px) {
+    .producto__titulo {
+        font-size: 20px;
+    }
+}
+
+
+/* --------------------------------------------------------- CONTACTENOS --------------------------------------------------------------- */
+/* --------------------------------------------------------- Responsive / menor tamaño --------------------------------------------- */
+@media only screen and (max-width: 575px) {
+
+    /* --------------------------------------RESPONSIVE-------------------------------------- */
+    /* ----- Segunda Seccion ----- */
+    .contacto .contacto__titulo {
+      font-size: 32px;
+    }
+  
+    .sloganCandiesbox {
+      font-size: 26px;
+    }
+  
+    .parrafoIntroductorio {
+      font-size: 18px;
+    }
+  }

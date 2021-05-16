@@ -2,7 +2,6 @@
 .standProductos {
 	margin: 0px;
 }
-
 .cajaCentrada {
 	text-align: center;
 	margin-bottom: 10px;
@@ -15,17 +14,14 @@
 	font-weight: bold;
 	font-size: 32px;
 }
-
 .especialAside {
 	margin-bottom: 0px;
 	display: block
 }
-
 .labelAside {
 	display: block;
 	margin-bottom: 0px;
 }
-
 .compra--caja {
 	.compra__titulo {
 		color: rgb(255, 54, 59);
@@ -62,66 +58,5 @@
 	.video__propiedades {
 		height: 400px;
 		margin-top: 10px;
-	}
-}
-
-/* --------------------------------------------------------- Responsive ------------------------------------------------------------- */
-@media only screen and (max-width: 1330px),
-(orientation: landscape) {
-
-	/* --------------------------------------RESPONSIVE-------------------------------------- */
-	/* ----- Segunda Sección / Aside ----- */
-	.casilla {
-		.casilla__label {
-			margin-bottom: 0px;
-			display: block
-		}
-
-		.casilla__select {
-			margin-bottom: 5px;
-		}
-	}
-
-	/* ----- Tercera Sección - Videos ----- */
-	.video--instagram {
-		.video__propiedades {
-			width: 170px;
-			height: auto;
-			margin-top: 10px;
-		}
-	}
-}
-
-@media only screen and (max-width: 1200px) {
-
-	/* --------------------------------------RESPONSIVE-------------------------------------- */
-	/* ----- Segunda Sección / Aside ----- */
-	.casilla {
-		.casilla__select {
-			width: 200px;
-		}
-	}
-}
-
-@media only screen and (max-width: 992px) {
-
-	/* --------------------------------------RESPONSIVE-------------------------------------- */
-	/* ----- Tercera Sección - Videos ----- */
-	.video--instagram {
-		.video__propiedades {
-			width: 170px;
-			height: auto;
-			margin-top: 10px;
-		}
-	}
-}
-
-@media only screen and (max-width: 575px) {
-
-	/* --------------------------------------RESPONSIVE-------------------------------------- */
-	/* ----- Segunda Seccion - Carrusel ----- */
-	.cajaSinEspacios {
-		margin: 0px;
-		padding: 0px;
 	}
 }
