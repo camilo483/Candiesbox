@@ -8,26 +8,6 @@
 	margin-bottom: 10px;
 }
 
-.producto {
-	text-align: center;
-	margin-bottom: 20px;
-
-	.producto__titulo {
-		margin-top: 10px;
-		margin-bottom: 0px;
-	}
-
-	.producto__imagen {
-		margin-top: 10px;
-		margin-bottom: 0px;
-	}
-
-	.producto__boton {
-		margin-top: 10px;
-		margin-bottom: 0px;
-	}
-}
-
 /* aside interno */
 .tituloBarraLateral {
 	color: rgb(89, 36, 9);
@@ -143,18 +123,5 @@
 	.cajaSinEspacios {
 		margin: 0px;
 		padding: 0px;
-	}
-
-	.producto {
-		.producto__titulo {
-			font-size: 18px;
-		}
-
-		.producto__boton {
-			.producto__boton--propiedades {
-				padding: 6px 6px;
-				font-size: 14px;
-			}
-		}
 	}
 }
