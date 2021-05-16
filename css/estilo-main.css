@@ -628,13 +628,11 @@ body {
         z-index: 1; }
       .contenedor--producto .producto .producto--contenido .producto__boton {
         display: inline-block;
-        padding: 8px 20px;
-        margin-top: 14px;
-        background: #fff;
-        color: #000;
-        border-radius: 20px;
-        text-decoration: none;
-        font-weight: 500; }
+        margin-top: 14px; }
+        .contenedor--producto .producto .producto--contenido .producto__boton .producto__boton--propiedades {
+          background-color: #ff363b;
+          padding: 10px;
+          border-radius: 20px; }
   .contenedor--producto .producto:hover .producto--contenido {
     transform: translateY(0px);
     opacity: 1; }

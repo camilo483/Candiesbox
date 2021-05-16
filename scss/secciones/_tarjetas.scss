@@ -43,18 +43,15 @@
             }
             .producto__boton {
                 display: inline-block;
-                padding: 8px 20px;
                 margin-top: 14px;
-                background: #fff;
-                color: #000;
-                border-radius: 20px;
-                text-decoration: none;
-                font-weight: 500;
-
+                .producto__boton--propiedades {
+                    background-color: rgb(255, 54, 59);
+                    padding: 10px;
+                    border-radius: 20px;
+                }
             }
         }
     }
-
     .producto:hover .producto--contenido {
         transform: translateY(0px);
         opacity: 1;
