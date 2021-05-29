@@ -466,16 +466,6 @@ body {
 #seccionTercera {
   margin: 0px; }
 
-.video--instagram {
-  text-align: center;
-  margin-bottom: 20px; }
-  .video--instagram .video__titulo {
-    margin-top: 10px;
-    margin-bottom: 0px; }
-  .video--instagram .video__propiedades {
-    height: 400px;
-    margin-top: 10px; }
-
 .standProductos {
   padding: 0; }
 
@@ -523,6 +513,39 @@ body {
   .contenedor--producto .producto:hover .producto--contenido {
     transform: translateY(0px);
     opacity: 1; }
+
+.video--contenedor {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+  .video--contenedor .video__caja {
+    height: 500px;
+    margin: 2rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border: 5%; }
+    .video--contenedor .video__caja video {
+      height: 100%;
+      width: auto;
+      object-fit: contain;
+      outline: none;
+      border: none;
+      cursor: pointer; }
+    .video--contenedor .video__caja video:hover {
+      transition: .2s linear;
+      transform: scale(1.4); }
+    .video--contenedor .video__caja .active {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 90%;
+      width: auto;
+      box-shadow: 0 0 0 100vh rgba(0, 0, 0, 0.7);
+      z-index: 1; }
+    .video--contenedor .video__caja .active:hover {
+      transition: none;
+      transform: translate(-50%, -50%) scale(1); }
 
 /* ------ Segunda Seccion / Texto de contacto y formulario / Candiesbox ------ */
 .contacto {
@@ -656,24 +679,12 @@ body {
     margin-bottom: 0px;
     display: block; }
   .casilla .casilla__select {
-    margin-bottom: 5px; }
-  /* ----- Tercera Sección - Videos ----- */
-  .video--instagram .video__propiedades {
-    width: 170px;
-    height: auto;
-    margin-top: 10px; } }
+    margin-bottom: 5px; } }
 
 @media only screen and (max-width: 1200px) {
   /* ----- Segunda Sección / Aside ----- */
   .casilla .casilla__select {
     width: 200px; } }
-
-@media only screen and (max-width: 992px) {
-  /* ----- Tercera Sección - Videos ----- */
-  .video--instagram .video__propiedades {
-    width: 170px;
-    height: auto;
-    margin-top: 10px; } }
 
 @media only screen and (max-width: 575px) {
   /* ----- Segunda Seccion - Carrusel ----- */

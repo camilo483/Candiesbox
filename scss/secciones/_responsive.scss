@@ -155,7 +155,6 @@
 	}
 }
 
-
 /* --------------------------------------------------------- PAGINAS ---------------------------------------------------------------- */
 /* --------------------------------------------------------- Responsive ------------------------------------------------------------- */
 @media only screen and (max-width: 1330px), (orientation: landscape) {
@@ -170,15 +169,6 @@
 			margin-bottom: 5px;
 		}
 	}
-
-	/* ----- Tercera Sección - Videos ----- */
-	.video--instagram {
-		.video__propiedades {
-			width: 170px;
-			height: auto;
-			margin-top: 10px;
-		}
-	}
 }
 @media only screen and (max-width: 1200px) {
 	/* ----- Segunda Sección / Aside ----- */
@@ -189,16 +179,6 @@
 	}
 }
 
-@media only screen and (max-width: 992px) {
-	/* ----- Tercera Sección - Videos ----- */
-	.video--instagram {
-		.video__propiedades {
-			width: 170px;
-			height: auto;
-			margin-top: 10px;
-		}
-	}
-}
 @media only screen and (max-width: 575px) {
 	/* ----- Segunda Seccion - Carrusel ----- */
 	.cajaSinEspacios {
@@ -207,7 +187,6 @@
 	}
 }
 
-
 /* --------------------------------------------------------- TARJETAS --------------------------------------------------------------- */
 /* --------------------------------------------------------- Responsive ------------------------------------------------------------- */
 @media only screen and (max-width: 575px) {
@@ -215,7 +194,6 @@
         font-size: 20px;
     }
 }
-
 
 /* --------------------------------------------------------- CONTACTENOS --------------------------------------------------------------- */
 /* --------------------------------------------------------- Responsive / menor tamaño --------------------------------------------- */

@@ -1,0 +1,43 @@
+.video--contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .video__caja {
+        height: 500px;
+        margin: 2rem;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .5);
+        overflow: hidden;
+        border: 5%;
+
+        video {
+            height: 100%;
+            width: auto;
+            object-fit: contain;
+            outline: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        video:hover {
+            transition: .2s linear;
+            transform: scale(1.4);
+        }
+
+        .active {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 90%;
+            width: auto;
+            box-shadow: 0 0 0 100vh rgba(0, 0, 0, .7);
+            z-index: 1;
+        }
+
+        .active:hover {
+            transition: none;
+            transform: translate(-50%, -50%) scale(1);
+        }
+    }
+}
