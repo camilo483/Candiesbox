@@ -225,7 +225,11 @@ body {
 .parrafoIntroductorio {
   color: #7a4900;
   margin-bottom: 0px;
-  font-size: 20px; }
+  font-size: 20px;
+  font-family: "Bree Serif", serif; }
+
+.texto--barraCompras {
+  font-family: "Bree Serif", serif; }
 
 /* ------ Primera Sección / Menu de todas las paginas y logo / Candiesbox ------ */
 #seccionPrimera {
