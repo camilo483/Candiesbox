@@ -196,6 +196,15 @@
 }
 
 /* --------------------------------------------------------- Responsive ------------------------------------------------------------- */
+/* --------------------------------------------------------- Responsive / Mayor tamaño---------------------------------------------- */
+@media only screen and (min-width: 1800px), (min-height: 768px) {
+	.tarjeta--personas {
+		.tarjeta__foto {
+			width: auto;
+			height: 800px;
+		}
+	}
+}
 @media only screen and (max-width: 575px) {
     .tarjeta--personas {
         width: 300px;
