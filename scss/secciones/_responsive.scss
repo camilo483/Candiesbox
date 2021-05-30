@@ -204,6 +204,15 @@
             width: auto;
             height: 420px;
         }
+		.tarjeta__informacion {
+			.tarjeta__informacion--redes {
+				padding-block: 16px;
+				margin: 0 50px;
+				.informacion__logo {
+					height: 30px;
+				}
+			}
+		}
     }
     .tarjeta--personas:hover {
         .tarjeta__foto {
